@@ -1,0 +1,36 @@
+/* style sheet for all 3 pages */
+
+h1,
+h3 {
+    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+    color: #db3000;
+    stroke: #000;
+    stroke-width: 1.5px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+body {
+    background-color: #d4d4d4;
+    padding: 0px, 0px, 15px, 15px;
+}
+
+body .bodyContent {
+    padding: 100px, 100px, 15px, 15px;
+    max-width: 1200px;
+}
+
+.linkList {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
