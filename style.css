@@ -1,7 +1,8 @@
 /* style sheet for all 3 pages */
 
 h1,
-h3 {
+h3,
+h4 {
     font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
     color: #db3000;
     stroke-width: 1.5px;
@@ -15,6 +16,11 @@ h1 {
 h3 {
     font-size: 32px;
     font-weight: 500;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 300;
 }
 
 body {
@@ -32,4 +38,14 @@ body .bodyContent {
     width: fit-content;
     height: fit-content;
     border-radius: 10px;
+}
+
+.ingredientsList li, 
+.ingredientsList ul li,
+.stepList li, 
+.stepList ul li,
+.descriptionP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #001730;
 }
