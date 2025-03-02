@@ -33,6 +33,13 @@ body {
     margin-inline-start: auto;
     margin-inline-end: auto;
     width: fit-content;
+    max-width: 1200px;
+}
+
+.bodyContent div {
+    width: fit-content;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 
 .linkList {
@@ -51,6 +58,7 @@ h1,
 .navLink {
     display: inline-block;
     margin-right: 25px;
+    margin-left: 25px;
     padding: 8px;
     background-color: #d4d4d4;
 }
@@ -67,4 +75,19 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #001730;
+}
+
+#descriptionPAndImg {
+    border: 2px solid black;
+    margin-top: 64px;
+    width: fit-content;
+}
+
+.gridMetaContent,
+img {
+    display: inline-block;
+}
+
+.gridMetaContent {
+    width: 500px;
 }
