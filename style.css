@@ -28,9 +28,11 @@ body {
     padding: 0px, 0px, 15px, 15px;
 }
 
-body .bodyContent {
+.bodyContent {
     padding: 100px, 100px, 15px, 15px;
-    max-width: 1200px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: fit-content;
 }
 
 .linkList {
@@ -38,6 +40,23 @@ body .bodyContent {
     width: fit-content;
     height: fit-content;
     border-radius: 10px;
+    padding: 12px 24px;
+}
+
+h1, 
+.linkList {
+    display:inline-block
+}
+
+.navLink {
+    display: inline-block;
+    margin-right: 25px;
+    padding: 8px;
+    background-color: #d4d4d4;
+}
+
+a {
+    color: #001730;
 }
 
 .ingredientsList li, 
